@@ -1,0 +1,22 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world
+  labels:
+   app: application
+spec:
+   replicas: 1
+   selector:
+     matchLabels:
+      app: application
+   template:
+    metadata:
+      labels:
+        app: application
+    spec:
+      containers:
+      - name: hello-world-pod
+        image: manisha666/mani:latest
+        ports:
+        - containerPort: 80
