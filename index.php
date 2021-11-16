@@ -1,4 +1,4 @@
 <?php
-echo "Welcome to"
+echo "Welcome to Jenkins"
 ?>
 
