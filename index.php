@@ -1,4 +1,4 @@
 <?php
-echo "Welcome"
+echo "Welcome to git"
 ?>
 
